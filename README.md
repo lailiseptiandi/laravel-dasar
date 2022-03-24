@@ -4,7 +4,9 @@
 2. Buka file .env dan ubah
 
 DB_DATABASE=nama_database
+
 DB_USERNAME=root
+
 DB_PASSWORD=password (jika ada)
 
 3. JALANKAN,
