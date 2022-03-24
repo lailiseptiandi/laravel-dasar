@@ -33,6 +33,7 @@ php artisan serve
 # Akun Login
 
 email = admin@transisi.id
+
 password = transisi
 
 # Cara Import FIle Employee
