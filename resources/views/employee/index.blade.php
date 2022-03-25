@@ -126,8 +126,9 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <form action="{{ route('employee.store') }}" method="post" enctype="multipart/form-data">
+                    <form action="{{ route('employee.update', $el->id) }}" method="post" enctype="multipart/form-data">
                         @csrf
+                        @method('PUT')
                         <div class="modal-body">
                             <div class="form-group">
                                 <label for="">Company</label>
